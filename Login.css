@@ -1,0 +1,75 @@
+body {
+    background-color: #121212; /* Dark background for a futuristic look */
+    color: #ffffff; /* White text for contrast */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .login-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: #1e1e1e; /* Slightly lighter dark background */
+    border-radius: 15px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.5);
+    margin-top: 100px; /* Center the form vertically */
+    transition: all 0.3s ease-in-out; /* Smooth transition for hover effect */
+  }
+  
+  .login-container:hover {
+    box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.7); /* Enhanced shadow on hover */
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px; /* Bold heading */
+    font-weight: bold;
+    color: #00bcd4; /* Bright accent color for heading */
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ffffff; /* Label color */
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #2a2a2a; /* Dark input background */
+    color: #ffffff; /* White text inside input */
+    transition: border-color 0.3s ease; /* Smooth transition for border */
+  }
+  
+  .form-group input:focus {
+    border-color: #00bcd4; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+  }
+  
+  .login-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #00bcd4; /* Button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; /* Larger button text */
+    transition: background-color 0.3s ease; /* Smooth transition for button */
+  }
+  
+  .login-btn:hover {
+    background-color: #008c9e; /* Darker shade on hover */
+  }
+  .error-message {
+    color: #ff0000; /* Red color for error messages */
+    font-size: 14px;
+    margin-top: 5px; /* Space between input and error message */
+  }
+  
